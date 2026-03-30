@@ -5,6 +5,13 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
+            #region Part1
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine(i);
+            }
+            #endregion
+
         }
     }
 }
